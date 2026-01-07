@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <title>Kamelenstress™</title>
+</head>
+
+<body class="bg-black">
+  <nav>
+    <div>
+      <a href="#">Kamelenstress™</a>
+      <div id="nav">
+        <ul>
+          <li><a href="#kaarten">Highlights</a></li>
+          <li><a href="#faq">Praktisch</a></li>
+          <li><a href="#contact">Reisplanner</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="bg-warning">
+      <h1>Doorkruis het zand in 8 stops</h1>
+      <p>
+        Kamelenstress met belangrijke bezienswaardigheden.
+      </p>
+    </div>
+  </header>
+  <section id="kaarten">
+    <div>
+      <div class="col-lg-7"><img alt="Piramides van Giza" src="img/01.webp">
+        <h3>Piramides van Giza<span class="bg-warning">Hot</span></h3>
+        <p>Het iconische beginpunt van elke reis door Egypte.</p><a href="#">Ontdek deze uitstap</a>
+      </div>
+      <div><img alt="De Sfinx" src="img/02.webp">
+        <h3>De Sfinx<span class="bg-warning">Hot</span></h3>
+        <p>Een korte maar indrukwekkende stop nabij Giza.</p><a href="#">Ontdek deze uitstap</a>
+      </div>
+      <div><img alt="Caïro bij avond" src="img/03.webp">
+        <h3>Caïro bij avond<span class="bg-warning">Hot</span></h3>
+        <p>Sfeer en verlichting in de hoofdstad.</p><a href="#">Ontdek deze uitstap</a>
+      </div>
+      <div><img alt="Khan el-Khalili" src="img/04.webp">
+        <h3>Khan el-Khalili<span class="bg-primary-subtle">Cold</span></h3>
+        <p>Historische marktwijk en cultureel centrum.</p><a href="#">Ontdek deze uitstap</a>
+      </div>
+      <div><img alt="Tempelgangen" src="img/05.webp">
+        <h3>Tempelgangen<span class="bg-danger">Hotter</span></h3>
+        <p>Reliëfs en hiërogliefen in detail.</p><a href="#">Ontdek deze uitstap</a>
+      </div>
+      <div><img alt="Monumentale cour" src="img/06.webp">
+        <h3>Monumentale cour<span class="bg-danger">Hotter</span></h3>
+        <p>Grote tempelpleinen en symmetrie.</p><a href="#">Ontdek deze uitstap</a>
+      </div>
+      <div><img alt="Tempels langs de Nijl" src="img/07.webp">
+        <h3>Tempels langs de Nijl<span class="bg-primary-subtle">Cold</span></h3>
+        <p>Stops langs het water tijdens een Nijlroute.</p><a href="#">Ontdek deze uitstap</a>
+      </div>
+      <div><img alt="Felucca op de Nijl" src="img/08.webp">
+        <h3>Felucca op de Nijl<span class="bg-primary-subtle">Cold</span></h3>
+        <p>Rustige vaart over de rivier.</p><a href="#">Ontdek deze uitstap</a>
+      </div>
+    </div>
+  </section>
+  <!-- ACCORDION -->
+  <section id="faq">
+    <h2>Praktisch &amp; tips</h2>
+    <p><strong>Wanneer plan ik de highlights best? </strong>Vroeg in de ochtend of laat in de namiddag voor zachter
+      licht en minder drukte.</p>
+    <p><strong>Moet ik alles op één plek doen? </strong>Nee. Combineer city (Caïro) met rustmomenten (Nijl) en tempels
+      verspreid over je dagen.</p>
+    <p><strong>Wat neem ik zeker mee? </strong>Zonnebescherming, water, comfortabele schoenen en een powerbank. De rest
+      komt goed.</p>
+  </section>
+  <!-- BUTTON GROUP -->
+  <section>
+    <p>Snel navigeren door je overzicht.</p>
+    <p><a href="#">Top</a> | <a href="#faq">Praktisch</a> | <a href="#contact">Reisplanner</a></p>
+  </section>
+  <!-- CONTACT + FORM -->
+  <section id="contact">
+    <div>
+      <div>
+        <div>
+          <div>
+            <h2>Reisplanner</h2>
+            <p>Vul je voorkeuren in en “verzend” je plan. (Demo, maar volledig klikbaar.)</p>
+          </div>
+          <div>
+            <div>
+              <form id="funForm">
+                <div class="mb-3">
+                  <label for="naam">Naam</label>
+                  <input id="naam" placeholder="bv. Philippe" type="text">
+                  <div class="form-text">Tip: dit veld is puur voor de demo.</div>
+                </div>
+                <div>
+                  <div class="mb-3">
+                    <input id="email" class="form-control" placeholder="naam@example.com" type="email">
+                    <label class="form-label" for="email">E-mail (voor je route)</label>
+                  </div>
+                </div>
+                <!-- Input group -->
+                <div class="mb-3">
+                  <label for="handle">Reislabel</label>
+                  <div>
+                    <span id="addon">#</span>
+                    <input aria-describedby="addon" id="handle" placeholder="egypte-2026" type="text">
+                  </div>
+                </div>
+                <!-- Selects -->
+                <div>
+                  <div>
+                    <label for="stopSelect">Kies een highlight om te starten</label>
+                    <select id="stopSelect">
+                      <option value="Giza: Piramides">Giza: Piramides</option>
+                      <option value="De Sfinx">De Sfinx</option>
+                      <option value="Caïro by Night">Caïro by Night</option>
+                      <option value="Khan el-Khalili">Khan el-Khalili</option>
+                      <option value="Tempelgangen">Tempelgangen</option>
+                      <option value="Monumentale Cour">Monumentale Cour</option>
+                      <option value="Tempels langs de Nijl">Tempels langs de Nijl</option>
+                      <option value="Felucca op de Nijl">Felucca op de Nijl</option>
+                    </select>
+                    <div>Je kan later nog extra stops toevoegen.</div>
+                  </div>
+                  <div>
+                    <label for="datum">Startdatum</label>
+                    <input id="datum" type="date">
+                    <div>Kies een datum om de demo te testen.</div>
+                  </div>
+                </div>
+                <!-- Range (component) -->
+                <div>
+                  <label for="tempoRange">Reistempo (0 = rustig, 10 = vol programma)</label>
+                  <input id="tempoRange" max="10" min="0" step="1" type="range" value="6">
+                  <div>
+                    <span>0</span><span>5</span><span>10</span>
+                  </div>
+                </div>
+                <!-- Switches + file input (component) -->
+                <div>
+                  <div>
+                    <label>Voorkeuren</label>
+                    <div>
+                      <input checked id="switchSunrise" type="checkbox">
+                      <label for="switchSunrise">Meer ochtendstops (zonsopgang)</label>
+                    </div>
+                    <div>
+                      <input id="switchBoat" type="checkbox">
+                      <label for="switchBoat">Nijl-vaart opnemen</label>
+                    </div>
+                  </div>
+                  <div>
+                    <label for="upload">Upload een referentiebeeld (optioneel)</label>
+                    <input accept="image/*" id="upload" type="file">
+                    <div>Voor de demo: bestand wordt niet opgeslagen.</div>
+                  </div>
+                </div>
+                <!-- Textarea -->
+                <div>
+                  <label for="opmerking">Notities</label>
+                  <textarea id="opmerking"
+                    placeholder="bv. ‘Meer foto-momenten’, ‘minder drukte’, ‘extra tijd in Caïro’..."
+                    rows="3"></textarea>
+                </div>
+                <!-- Checks -->
+                <div class="mb-3 form-check">
+                  <label>Checklijst</label>
+                  <div>
+                    <input id="check1" type="checkbox" value="">
+                    <label for="check1">Ik plan buffer-tijd tussen stops</label>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input checked id="check2" type="checkbox" value="">
+                    <label for="check2">Ik hou rekening met warmte en rustmomenten</label>
+                  </div>
+                </div>
+                <!-- Radios -->
+                <div>
+                  <label>Stijl van reizen</label>
+                  <div  class="mb-3">
+                    <input id="radio1" name="stijl" type="radio">
+                    <label for="radio1">Relax — minder stops, meer sfeer</label>
+                  </div>
+                  <div  class="mb-3">
+                    <input checked id="radio2" name="stijl" type="radio">
+                    <label for="radio2">Gebalanceerd — highlights met pauzes</label>
+                  </div>
+                  <div  class="mb-3">
+                    <input id="radio3" name="stijl" type="radio">
+                    <label for="radio3">Intens — veel zien op korte tijd</label>
+                  </div>
+                </div>
+                <div>
+                  <button id="liveAlertBtn" type="submit" class="btn btn-primary">Verzend mijn reisplan</button>
+                </div>
+                <p>Disclaimer: demo. Maar je route voelt al verrassend echt.</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <small>© 2025 Kamelenstress™ – Alle rechten voorbehouden.
+    </small>
+  </footer>
+</body>
+
+</html>

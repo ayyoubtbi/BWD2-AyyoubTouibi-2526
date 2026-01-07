@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<title>Galactic Pizza Racers – Startversie zonder Bootstrap</title>
+
+	<!-- TODO: Voeg hier later Bootstrap CSS via CDN toe -->
+</head>
+
+<body class="bg-light">
+
+	<!-- HEADER / HERO -->
+	<header class="bg-dark text-white py-5 mb-4">
+		<div>
+			<p>Game overview</p>
+			<h1>Galactic Pizza Racers</h1>
+			<p>
+				Race door de ruimte, ontwijk asteroïden en bezorg pizza’s sneller dan het licht.
+			</p>
+		</div>
+	</header>
+
+	<!-- INLEIDING + TYPOGRAFIE -->
+	<section class="container mb-5">
+		<div class="row">
+			<div class="col-md-6">
+				<h2 class="h3 fw-bold mb-3">Waarom deze pagina?</h2>
+				<p class="mb-3">
+					Deze pagina toont hoe je met <strong class="fw-bold">Bootstrap</strong> snel een
+					nette layout maakt met typografie, afbeeldingen, tabellen en het grid-systeem.
+				</p>
+				<p class="fst-italic mb-3">
+					Let op de verschillende tekstgroottes en stijlen in deze sectie.
+				</p>
+				<p class="text-uppercase">
+					this text is uppercased met een Bootstrap-klasse (straks).
+				</p>
+			</div>
+			<div class="col-md-3">
+				<div>
+					<h3>Snelle info</h3>
+					<p><strong>Genre:</strong> Arcade racing</p>
+					<p><strong>Spelers:</strong> 1–4</p>
+					<p class="mb-0 text-muted">Let op: zeer verslavend.</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<img src="img/Galactic_Pizza_Racers_BWD2_tn.jpg" class="img-fluid img-thumbnail rounded float-end"
+					alt="4 Galactic Pizza Racers">
+			</div>
+		</div>
+	</section>
+
+	<!-- FEATURES (3 kolommen in grid) -->
+	<section>
+		<h2>Belangrijkste features</h2>
+
+		<div>
+			<div>
+				<div>
+					<h3>Ruimtebanen</h3>
+					<p>
+						Race over zwevende pizza-dozen, wormgaten en meteorietvelden.
+					</p>
+				</div>
+			</div>
+
+			<div>
+				<div>
+					<h3>Power-ups</h3>
+					<p>
+						Verzamel turbo-saus, extra kaas-schilden en peperoni-raketten.
+					</p>
+				</div>
+			</div>
+
+			<div>
+				<div>
+					<h3>Co-op mode</h3>
+					<p>
+						Speel samen met vrienden en bezorg pizza’s als een echt team.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- AFBEELDINGEN -->
+	<section>
+		<h2>Screenshots</h2>
+
+		<div>
+			<div>
+				<h3>In-game actie</h3>
+				<img src="img/01.jpg" alt="Gameplay screenshot">
+				<p>
+					Deze afbeelding zal later responsief gemaakt worden met een Bootstrap-klasse.
+				</p>
+			</div>
+			<div>
+				<h3>In-game actie</h3>
+				<img src="img/01.jpg" alt="Gameplay screenshot">
+				<p>
+					Deze afbeelding zal later responsief gemaakt worden met een Bootstrap-klasse.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- FIGURE -->
+	<section>
+		<h2>Concept art</h2>
+
+		<figure>
+			<img src="img/03.jpg" alt="Concept art van het spel">
+			<figcaption>
+				Concept art van de hoofdbaan in Galactic Pizza Racers, met neonreclames en zwevende pizza’s.
+			</figcaption>
+		</figure>
+	</section>
+
+	<!-- TABEL -->
+	<section>
+		<h2>Racers overzicht</h2>
+
+		<table>
+			<thead>
+				<tr>
+					<th scope="col">Naam</th>
+					<th scope="col">Voertuig</th>
+					<th scope="col">Speciale vaardigheid</th>
+					<th scope="col">Moeilijkheid</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Nova Slice</td>
+					<td>Photon Scooter</td>
+					<td>Instant turbo boost</td>
+					<td>Beginner</td>
+				</tr>
+				<tr>
+					<td>Captain Crust</td>
+					<td>Deep Dish Cruiser</td>
+					<td>Extra zwaar schild</td>
+					<td>Gemiddeld</td>
+				</tr>
+				<tr>
+					<td>Mozza Queen</td>
+					<td>Cheese Comet</td>
+					<td>Stun laser van gesmolten kaas</td>
+					<td>Gevorderd</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<p>
+			Deze tabel wordt later met Bootstrap-klassen opgemaakt als table, striped, bordered, enz.
+		</p>
+	</section>
+
+	<!-- KLEURENSCHEMA -->
+	<section>
+		<h2>Kleurenschema</h2>
+
+		<div>
+			<div>primary</div>
+			<div>success</div>
+			<div>warning</div>
+			<div>danger</div>
+		</div>
+
+		<div>
+			<p>
+				Dit blok kan later een dark theme krijgen met een attribuut zoals data-bs-theme="dark".
+			</p>
+		</div>
+	</section>
+
+	<!-- ACTIES -->
+	<section>
+		<h2>Acties</h2>
+		<button type="button">Start race</button>
+		<button type="button">Bekijk opties</button>
+		<button type="button">Verlaat spel</button>
+	</section>
+
+	<!-- FOOTER -->
+	<footer>
+		<div>
+			<p>
+				&copy; 2025 Galactic Pizza Racers – Demo voor layout en content.
+			</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>
