@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuurtBakkers - Dagelijks vers uit de buurt</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-amber-50 text-amber-900">
+
+    <!-- Header -->
+    <header class="bg-amber-50 shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <!-- Logo -->
+            <a href="index.html">
+                <img src="img/logo.png" alt="BuurtBakkers logo" class="h-12">
+            </a>
+
+            <!-- Desktop navigatie -->
+            <nav class="space-x-6 hidden md:block" aria-label="Hoofdmenu">
+                <a href="index.html" class="hover:text-orange-700 font-medium">Home</a>
+                <a href="over-ons.html" class="hover:text-orange-700 font-medium">Over ons</a>
+                <a href="producten.html" class="hover:text-orange-700 font-medium">Onze producten</a>
+                <a href="winkelkar.html" class="hover:text-orange-700 font-medium">Winkelkar</a>
+                <a href="contact.html" class="hover:text-orange-700 font-medium">Contact</a>
+                <a href="jobs.html" class="hover:text-orange-700 font-medium">Jobs</a>
+            </nav>
+        </div>
+
+        <!-- Mobiel menu -->
+        <nav class="md:hidden bg-amber-100 px-6 py-4 space-y-2" aria-label="Mobiel menu">
+            <a href="index.html" class="block font-medium">Home</a>
+            <a href="over-ons.html" class="block font-medium">Over ons</a>
+            <a href="producten.html" class="block font-medium">Onze producten</a>
+            <a href="winkelkar.html" class="block font-medium">Winkelkar</a>
+            <a href="contact.html" class="block font-medium">Contact</a>
+            <a href="jobs.html" class="block font-medium">Jobs</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="text-center px-6 py-16">
+            <img src="img/logo.png" alt="BuurtBakkers logo" class="mx-auto h-72 mb-6">
+
+            <p class="text-xl md:text-2xl mb-10">
+                De buurt verbinden met eerlijk, vers en lokaal brood
+            </p>
+
+            <div class="flex justify-center gap-4 flex-wrap">
+                <a href="producten.html"
+                    class="bg-orange-700 text-white px-8 py-4 rounded-full shadow-lg hover:bg-orange-800 transition">
+                    Ontdek ons dagelijks aanbod
+                </a>
+                <a href="winkelkar.html"
+                    class="bg-white text-orange-700 px-8 py-4 rounded-full shadow-lg border border-orange-700 hover:bg-orange-100 transition">
+                    Plaats een online bestelling
+                </a>
+            </div>
+        </section>
+
+        <!-- Highlights -->
+        <section class="max-w-6xl mx-auto px-6 py-16 grid gap-8 md:grid-cols-3">
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <h2 class="text-2xl font-semibold mb-4">Lokale ingrediënten</h2>
+                <p>
+                    Wij werken samen met boeren en leveranciers uit de buurt
+                    voor de beste kwaliteit.
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <h2 class="text-2xl font-semibold mb-4">Ambachtelijk vakmanschap</h2>
+                <p>
+                    Elk brood en elke taart wordt met zorg en liefde met de hand gemaakt.
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <h2 class="text-2xl font-semibold mb-4">Elke ochtend vers</h2>
+                <p>
+                    Dagelijks vers gebakken brood en koffiekoeken, recht uit de oven.
+                </p>
+            </div>
+        </section>
+
+        <!-- Over ons -->
+        <section class="bg-amber-100 py-16 px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6">Over BuurtBakkers</h2>
+            <p class="max-w-3xl mx-auto mb-8">
+                BuurtBakkers is een lokale bakkerij met een passie voor kwaliteit,
+                duurzaamheid en echte smaken. Wij geloven in eerlijke producten
+                en korte ketens.
+            </p>
+            <a href="over-ons.html"
+                class="inline-block bg-orange-700 text-white px-8 py-4 rounded-full shadow-md hover:bg-orange-800 transition">
+                Lees meer over onze missie en waarden
+            </a>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="max-w-6xl mx-auto px-6 py-16">
+            <h2 class="text-3xl font-bold text-center mb-12">
+                Wat onze klanten zeggen
+            </h2>
+
+            <div class="grid gap-8 md:grid-cols-2">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="italic mb-4">
+                        Het beste brood van de buurt, elke week opnieuw!
+                    </p>
+                    <span class="font-semibold">– Sarah</span>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="italic mb-4">
+                        Je proeft dat alles met liefde en vakmanschap wordt gemaakt.
+                    </p>
+                    <span class="font-semibold">– Tom</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-orange-200 text-amber-900 mt-16">
+        <div class="max-w-7xl mx-auto px-6 py-12 grid gap-8 md:grid-cols-3">
+
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Openingsuren</h3>
+                <ul class="space-y-1">
+                    <li>Maandag: gesloten</li>
+                    <li>Dinsdag – Zaterdag: 7:00 – 18:00</li>
+                    <li>Zondag: 7:00 – 16:00</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Contact</h3>
+                <p>Tel: <a href="tel:022527667">02 252 76 67</a></p>
+                <p class="mt-2">
+                    Schaarbeeklei 10<br>
+                    1800 Vilvoorde<br>
+                    België
+                </p>
+            </div>
+
+            <div class="flex items-center md:justify-end">
+                <img src="img/betalingen.svg" alt="Betaalmethodes" class="h-12">
+            </div>
+        </div>
+
+        <div class="bg-orange-200 text-center py-4 text-sm">
+            BuurtBakkers © 2026
+        </div>
+    </footer>
+
+</body>
+
+</html>

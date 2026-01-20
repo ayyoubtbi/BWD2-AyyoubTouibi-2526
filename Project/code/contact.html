@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – BuurtBakkers</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Dancing Script font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-amber-50 text-amber-900">
+
+    <!-- Header -->
+    <header class="bg-amber-50 shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <a href="index.html">
+                <img src="img/logo.png" alt="BuurtBakkers logo" class="h-12">
+            </a>
+
+            <nav class="space-x-6 hidden md:block" aria-label="Hoofdmenu">
+                <a href="index.html" class="hover:text-orange-700 font-medium">Home</a>
+                <a href="over-ons.html" class="hover:text-orange-700 font-medium">Over ons</a>
+                <a href="producten.html" class="hover:text-orange-700 font-medium">Onze producten</a>
+                <a href="winkelkar.html" class="hover:text-orange-700 font-medium">Winkelkar</a>
+                <a href="contact.html" class="hover:text-orange-700 font-medium">Contact</a>
+                <a href="jobs.html" class="hover:text-orange-700 font-medium">Jobs</a>
+            </nav>
+        </div>
+
+        <!-- Mobiel menu -->
+        <nav class="md:hidden bg-amber-100 px-6 py-4 space-y-2" aria-label="Mobiel menu">
+            <a href="index.html" class="block font-medium">Home</a>
+            <a href="over-ons.html" class="block font-medium">Over ons</a>
+            <a href="producten.html" class="block font-medium">Onze producten</a>
+            <a href="winkelkar.html" class="block font-medium">Winkelkar</a>
+            <a href="contact.html" class="block font-medium">Contact</a>
+            <a href="jobs.html" class="block font-medium">Jobs</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Contact inhoud -->
+        <section class="max-w-7xl mx-auto px-6 py-16">
+
+            <div class="grid gap-12 md:grid-cols-3 mb-16">
+
+                <!-- Openingsuren -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-6">
+                        <span class="text-amber-900 font-['Dancing_Script']">Onze </span>
+                        <span class="text-amber-200 font-['Dancing_Script'] text-3xl">openingsuren</span>
+                    </h2>
+
+                    <ul class="space-y-2">
+                        <li>Maandag: gesloten</li>
+                        <li>Dinsdag: 7:00 – 18:00</li>
+                        <li>Woensdag: 7:00 – 18:00</li>
+                        <li>Donderdag: 7:00 – 18:00</li>
+                        <li>Vrijdag: 7:00 – 18:00</li>
+                        <li>Zaterdag: 7:00 – 18:00</li>
+                        <li>Zondag: 7:00 – 16:00</li>
+                    </ul>
+                </div>
+
+                <!-- Contactgegevens -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-6">
+                        <span class="text-amber-900 font-['Dancing_Script']">Onze </span>
+                        <span class="text-amber-200 font-['Dancing_Script'] text-3xl">contactgegevens</span>
+                    </h2>
+
+                    <p class="mb-4">02 252 76 67</p>
+
+                    <p class="mb-4">
+                        Schaarbeeklei 10<br>
+                        1800 Vilvoorde<br>
+                        België
+                    </p>
+
+                    <p class="text-sm">
+                        BTW-nummer: BE 0974813950
+                    </p>
+                </div>
+
+                <!-- Contactformulier -->
+                <div>
+                    <h2 class="text-2xl font-bold mb-6">
+                        <span class="text-amber-900 font-['Dancing_Script']">Ons </span>
+                        <span class="text-amber-200 font-['Dancing_Script'] text-3xl">contacteren</span>
+                    </h2>
+
+                    <form class="space-y-4">
+
+                        <div>
+                            <label for="naam" class="block font-medium mb-1">Naam *</label>
+                            <input type="text" id="naam" name="naam" required
+                                class="w-full rounded-lg border border-amber-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block font-medium mb-1">E-mail *</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full rounded-lg border border-amber-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+                        </div>
+
+                        <div>
+                            <label for="telefoon" class="block font-medium mb-1">Telefoon *</label>
+                            <input type="tel" id="telefoon" name="telefoon" required
+                                class="w-full rounded-lg border border-amber-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+                        </div>
+
+                        <div>
+                            <label for="bericht" class="block font-medium mb-1">Bericht *</label>
+                            <textarea id="bericht" name="bericht" rows="4" required
+                                class="w-full rounded-lg border border-amber-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"></textarea>
+                        </div>
+
+                        <div class="flex items-center gap-2">
+                            <input type="checkbox" id="nieuwsbrief" name="nieuwsbrief"
+                                class="rounded border-amber-300 text-orange-600 focus:ring-orange-400">
+                            <label for="nieuwsbrief" class="text-sm">
+                                Ik schrijf me in voor de nieuwsbrief
+                            </label>
+                        </div>
+
+                        <button type="submit"
+                            class="bg-orange-700 text-white px-6 py-3 rounded-full shadow-md hover:bg-orange-800 transition">
+                            Verzend bericht
+                        </button>
+
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- Google Maps -->
+            <div class="w-full overflow-hidden rounded-xl shadow-md">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5029.776435506242!2d4.423023875744205!3d50.92578477168685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3dd54358dbc85%3A0x6eea8bd55f800c9a!2sSchaarbeeklei%2010%2C%201800%20Vilvoorde!5e0!3m2!1sfr!2sbe!4v1768945711947!5m2!1sfr!2sbe"
+                    class="w-full h-[450px]" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-orange-200 text-amber-900 mt-16">
+        <div class="max-w-7xl mx-auto px-6 py-12 grid gap-8 md:grid-cols-3">
+
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Openingsuren</h3>
+                <ul class="space-y-1">
+                    <li>Maandag: gesloten</li>
+                    <li>Dinsdag – Zaterdag: 7:00 – 18:00</li>
+                    <li>Zondag: 7:00 – 16:00</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Contact</h3>
+                <p>Tel: <a href="tel:022527667">02 252 76 67</a></p>
+                <p class="mt-2">
+                    Schaarbeeklei 10<br>
+                    1800 Vilvoorde<br>
+                    België
+                </p>
+            </div>
+
+            <div class="flex items-center md:justify-end">
+                <img src="img/betalingen.svg" alt="Betaalmethodes" class="h-12">
+            </div>
+        </div>
+
+        <div class="bg-orange-200 text-center py-4 text-sm">
+            BuurtBakkers © 2026
+        </div>
+    </footer>
+
+</body>
+
+</html>
