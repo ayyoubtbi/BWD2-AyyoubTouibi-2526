@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs – BuurtBakkers</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-amber-50 text-amber-900">
+
+    <!-- Header -->
+    <header class="bg-amber-50 shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html">
+                <img src="img/logo.png" alt="BuurtBakkers logo" class="h-12">
+            </a>
+
+            <nav class="space-x-6 hidden md:block" aria-label="Hoofdmenu">
+                <a href="index.html" class="hover:text-orange-700 font-medium">Home</a>
+                <a href="over-ons.html" class="hover:text-orange-700 font-medium">Over ons</a>
+                <a href="producten.html" class="hover:text-orange-700 font-medium">Onze producten</a>
+                <a href="winkelkar.html" class="hover:text-orange-700 font-medium">Winkelkar</a>
+                <a href="contact.html" class="hover:text-orange-700 font-medium">Contact</a>
+                <a href="jobs.html" class="hover:text-orange-700 font-medium">Jobs</a>
+            </nav>
+        </div>
+
+        <!-- Mobiel menu -->
+        <nav class="md:hidden bg-amber-100 px-6 py-4 space-y-2" aria-label="Mobiel menu">
+            <a href="index.html" class="block font-medium">Home</a>
+            <a href="over-ons.html" class="block font-medium">Over ons</a>
+            <a href="producten.html" class="block font-medium">Onze producten</a>
+            <a href="winkelkar.html" class="block font-medium">Winkelkar</a>
+            <a href="contact.html" class="block font-medium">Contact</a>
+            <a href="jobs.html" class="block font-medium">Jobs</a>
+        </nav>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-16">
+
+        <!-- Intro -->
+        <section class="mb-12">
+            <h1 class="text-3xl font-bold mb-6 text-center">Werken bij BuurtBakkers</h1>
+
+            <p class="mb-4">
+                BuurtBakkers is een warme, lokale bakkerij waar ambacht, kwaliteit en
+                klantvriendelijkheid centraal staan. Elke dag bakken we met passie
+                vers brood, koffiekoeken en taarten voor onze buurt.
+            </p>
+
+            <p class="mb-4">
+                Om ons team te versterken, zijn we op zoek naar gemotiveerde
+                medewerkers die houden van werken met voeding en graag mensen
+                helpen. Of je nu ervaring hebt in de bakkerij of in de verkoop,
+                belangrijker vinden wij dat je gemotiveerd, vriendelijk en
+                betrouwbaar bent.
+            </p>
+
+            <p>
+                Bij BuurtBakkers kom je terecht in een hecht team met een aangename
+                werksfeer. We bieden een afwisselende job, ruimte om bij te leren
+                en de kans om mee te bouwen aan een lokale onderneming waar
+                kwaliteit voorop staat.
+            </p>
+        </section>
+
+        <!-- Formulier -->
+        <section class="bg-white p-8 rounded-xl shadow-md">
+            <h2 class="text-2xl font-bold mb-6 text-center">Solliciteer nu</h2>
+
+            <form class="grid gap-6">
+
+                <div>
+                    <label for="naam" class="block font-medium mb-1">Naam *</label>
+                    <input type="text" id="naam" name="naam" required
+                        class="w-full rounded-lg border border-amber-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+                </div>
+
+                <div>
+                    <label for="email" class="block font-medium mb-1">E-mailadres *</label>
+                    <input type="email" id="email" name="email" required
+                        class="w-full rounded-lg border border-amber-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+                </div>
+
+                <div>
+                    <label for="telefoon" class="block font-medium mb-1">Telefoonnummer *</label>
+                    <input type="tel" id="telefoon" name="telefoon" required
+                        class="w-full rounded-lg border border-amber-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+                </div>
+
+                <div>
+                    <label for="geboortedatum" class="block font-medium mb-1">Geboortedatum *</label>
+                    <input type="date" id="geboortedatum" name="geboortedatum" required
+                        class="w-full rounded-lg border border-amber-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+                </div>
+
+                <div>
+                    <label for="motivatie" class="block font-medium mb-1">Motivatie</label>
+                    <textarea id="motivatie" name="motivatie" rows="4"
+                        class="w-full rounded-lg border border-amber-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"></textarea>
+                </div>
+
+                <div>
+                    <label for="cv" class="block font-medium mb-1">Upload je CV *</label>
+                    <input type="file" id="cv" name="cv" required
+                        class="w-full border border-amber-300 rounded-lg px-4 py-2 bg-white">
+                </div>
+
+                <button type="submit"
+                    class="bg-orange-700 text-white px-8 py-4 rounded-full shadow-md hover:bg-orange-800 transition self-center">
+                    Sollicitatie versturen
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-orange-200 text-amber-900 mt-16">
+        <div class="max-w-7xl mx-auto px-6 py-12 grid gap-8 md:grid-cols-3">
+
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Openingsuren</h3>
+                <ul class="space-y-1">
+                    <li>Maandag: gesloten</li>
+                    <li>Dinsdag – Zaterdag: 7:00 – 18:00</li>
+                    <li>Zondag: 7:00 – 16:00</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Contact</h3>
+                <p>Tel: <a href="tel:022527667" class="hover:underline">02 252 76 67</a></p>
+                <p class="mt-2">
+                    Schaarbeeklei 10<br>
+                    1800 Vilvoorde<br>
+                    België
+                </p>
+            </div>
+
+            <div class="flex items-center md:justify-end">
+                <img src="img/betalingen.svg" alt="Betaalmethodes" class="h-12">
+            </div>
+        </div>
+
+        <div class="bg-orange-200 text-center py-4 text-sm">
+            BuurtBakkers © 2026
+        </div>
+    </footer>
+
+</body>
+
+</html>
