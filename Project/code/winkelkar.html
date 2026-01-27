@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winkelkar – BuurtBakkers</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-amber-50 text-amber-900">
+
+    <!-- Header -->
+    <header class="bg-amber-50 shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html">
+                <img src="img/logo.png" alt="BuurtBakkers logo" class="h-12">
+            </a>
+
+            <nav class="space-x-6 hidden md:block" aria-label="Hoofdmenu">
+                <a href="index.html" class="hover:text-orange-700 font-medium">Home</a>
+                <a href="over-ons.html" class="hover:text-orange-700 font-medium">Over ons</a>
+                <a href="producten.html" class="hover:text-orange-700 font-medium">Onze producten</a>
+                <a href="winkelkar.html" class="hover:text-orange-700 font-medium">Winkelkar</a>
+                <a href="contact.html" class="hover:text-orange-700 font-medium">Contact</a>
+                <a href="jobs.html" class="hover:text-orange-700 font-medium">Jobs</a>
+            </nav>
+        </div>
+
+        <!-- Mobiel menu -->
+        <nav class="md:hidden bg-amber-100 px-6 py-4 space-y-2" aria-label="Mobiel menu">
+            <a href="index.html" class="block font-medium">Home</a>
+            <a href="over-ons.html" class="block font-medium">Over ons</a>
+            <a href="producten.html" class="block font-medium">Onze producten</a>
+            <a href="winkelkar.html" class="block font-medium">Winkelkar</a>
+            <a href="contact.html" class="block font-medium">Contact</a>
+            <a href="jobs.html" class="block font-medium">Jobs</a>
+        </nav>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-16">
+
+        <h1 class="text-3xl font-bold mb-12 text-center">Jouw winkelkar</h1>
+
+        <!-- Producten -->
+        <div class="space-y-6">
+
+            <!-- Product -->
+            <div class="bg-white p-4 rounded-xl shadow-md flex flex-col sm:flex-row items-center gap-6">
+                <div class="w-28 h-28 flex items-center justify-center">
+                    <img src="img/wit-carre-groot.jpg" alt="Wit carré groot"
+                        class="max-w-full max-h-full object-contain">
+                </div>
+                <div class="flex-1">
+                    <h2 class="font-semibold">Wit carré groot</h2>
+                    <p>€2,95</p>
+                </div>
+                <div class="text-center w-16">
+                    <span class="block text-sm">Aantal</span>
+                    <span class="font-semibold">2</span>
+                </div>
+            </div>
+
+            <!-- Product -->
+            <div class="bg-white p-4 rounded-xl shadow-md flex flex-col sm:flex-row items-center gap-6">
+                <div class="w-28 h-28 flex items-center justify-center">
+                    <img src="img/croissant.jpg" alt="Croissant" class="max-w-full max-h-full object-contain">
+                </div>
+                <div class="flex-1">
+                    <h2 class="font-semibold">Croissant</h2>
+                    <p>€1,70</p>
+                </div>
+                <div class="text-center w-16">
+                    <span class="block text-sm">Aantal</span>
+                    <span class="font-semibold">2</span>
+                </div>
+            </div>
+
+            <!-- Product -->
+            <div class="bg-white p-4 rounded-xl shadow-md flex flex-col sm:flex-row items-center gap-6">
+                <div class="w-28 h-28 flex items-center justify-center">
+                    <img src="img/donut-chocolade.jpg" alt="Donut chocolade"
+                        class="max-w-full max-h-full object-contain">
+                </div>
+                <div class="flex-1">
+                    <h2 class="font-semibold">Donut chocolade</h2>
+                    <p>€1,90</p>
+                </div>
+                <div class="text-center w-16">
+                    <span class="block text-sm">Aantal</span>
+                    <span class="font-semibold">4</span>
+                </div>
+            </div>
+
+            <!-- Product -->
+            <div class="bg-white p-4 rounded-xl shadow-md flex flex-col sm:flex-row items-center gap-6">
+                <div class="w-28 h-28 flex items-center justify-center">
+                    <img src="img/tarte-maison.jpg" alt="Tarte maison 4 personen"
+                        class="max-w-full max-h-full object-contain">
+                </div>
+                <div class="flex-1">
+                    <h2 class="font-semibold">Tarte maison (4 personen)</h2>
+                    <p>€16,90</p>
+                </div>
+                <div class="text-center w-16">
+                    <span class="block text-sm">Aantal</span>
+                    <span class="font-semibold">1</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Totaal -->
+        <div
+            class="mt-12 bg-amber-100 p-6 rounded-xl shadow-md flex flex-col sm:flex-row justify-between items-center gap-6">
+            <p class="text-xl font-semibold">
+                Totaal: €33,80
+            </p>
+            <a href="#"
+                class="bg-orange-700 text-white px-8 py-4 rounded-full shadow-md hover:bg-orange-800 transition">
+                Verder naar betaling
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-orange-200 text-amber-900 mt-16">
+        <div class="max-w-7xl mx-auto px-6 py-12 grid gap-8 md:grid-cols-3">
+
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Openingsuren</h3>
+                <ul class="space-y-1">
+                    <li>Maandag: gesloten</li>
+                    <li>Dinsdag – Zaterdag: 7:00 – 18:00</li>
+                    <li>Zondag: 7:00 – 16:00</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Contact</h3>
+                <p>Tel: <a href="tel:022527667" class="hover:underline">02 252 76 67</a></p>
+                <p class="mt-2">
+                    Schaarbeeklei 10<br>
+                    1800 Vilvoorde<br>
+                    België
+                </p>
+            </div>
+
+            <div class="flex items-center md:justify-end">
+                <img src="img/betalingen.svg" alt="Betaalmethodes" class="h-12">
+            </div>
+        </div>
+
+        <div class="bg-orange-200 text-center py-4 text-sm">
+            BuurtBakkers © 2026
+        </div>
+    </footer>
+
+</body>
+
+</html>
